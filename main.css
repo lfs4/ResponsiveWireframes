@@ -10,7 +10,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-
 /*#box1{
   border: 1px solid black;
   padding: 10px;
@@ -27,7 +26,6 @@
 h1{
   margin: 0;
   padding: 0;
-  
 }
 /*.blue{
   margin: 5%;
@@ -38,17 +36,53 @@ h1{
   float: left;
 }*/
 .container{
+  margin: 5px;
+  padding: 1px;
   width: auto;
   height: 100%;
+
+}
+.menuList{
+  width: 100%;
+  height: 7.5%;
+  margin-left: 2px;
+  background-color: white;
+  width:auto;
+   
+}
+.menuItem{
+  width: 9.9%;
+  float: left;
+  height: 100%;
+  border: 1px solid black;
+  border-right: 0;
+  text-align: center;
+  
   
 }
+.menuEndcap{
+  width: 9.9%;
+  float: left;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+ 
+  
+  
+}
+
 .topBox{
+  height: 38%;
   border: 1px solid black;
   background-color: green;
   color: white;
-  
-  
 }
+.menuButton{
+  display: none;
+}
+.cartButton{float: left;}
+
+
 
 
 #sidebar{
@@ -94,9 +128,17 @@ and (max-device-width: 480px)
 {
 body{
 background-color: grey;
-height: 100%;
+
 
 }
+.container{
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  
+  
+}
+
 
   .topBox{
     background-color: white;
@@ -106,6 +148,7 @@ height: 100%;
     
   }
   .menuButton{
+    display: inline;
     width: 50%;
     height: 14.5%;
     background-color: blue;
@@ -117,6 +160,9 @@ height: 100%;
     background-color: blue;
     float: right;
   }
+  .menuList{
+    display: none;
+  }
   .scrollImage{
     height: 42%;
     background-color: green;
@@ -126,6 +172,10 @@ height: 100%;
     background-color: indianred;
     
   }
+  .menuItem{
+    display: none;
+  }
+
 
 }
 @media only screen
