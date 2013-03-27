@@ -11,55 +11,38 @@
    ========================================================================== */
 
 
-#box1{
+/*#box1{
   border: 1px solid black;
   padding: 10px;
-  background-color: blue;
+  background-color: white;
   color: white; 
   width: 50%;
-  height: 10%;
+  
   float: left;
   margin: 1em;
   padding:1em;
   font-size: 10px;
-}
+}*/
 
-#box2{
-  width: 300px;
+h1{
+  margin: 0;
+  padding: 0;
+  
 }
-.blue{
+/*.blue{
   margin: 5%;
   width: 30%;
   height:  30%;
   background-color: blue;
   color: white;
   float: left;
-}
-.green{
-  margin: 5%;
-  width: 30%;
-  height:  30%;
+}*/
+.topBox{
+  
   background-color: green;
-  float: right;
-}
-.red{
-    margin: 5%;
-    width: 30%;
-    height: 30%;
-    float: left;
-
-  background-color: red;
-}
-.orange{
-  margin: 5%;
-  width: 30%;
-  height: 30%;
-  float: right;
-  background-color: orange;
-}
-#header{
- width: 960px;
-
+  color: white;
+  
+  
 }
 
 #sidebar{
@@ -68,13 +51,13 @@ background-color: red;
 float:left;
 }
 
-#mycontainer{
+/*#mycontainer{
 margin-left:auto;
 margin-right:auto;
 background-color: green;
 width: 95%;
 
-}
+}*/
 /*
 #h1{font-size:200%}
 #h2{font-size:150%}
@@ -90,7 +73,7 @@ textarea {
 }
 
 html, body {
-    background-color: purple;
+    background-color: white;
     font-size: 1em;
     line-height: 1.4;
     height: 100%;
@@ -109,6 +92,34 @@ height: 100%;
 
 }
 
+  .topBox{
+    background-color: white;
+    height: 23%;
+    color: black;
+    font-size: larger;
+    
+  }
+  .menuButton{
+    width: 50%;
+    height: 14.5%;
+    background-color: blue;
+    float: left;
+  }
+  .cartButton{
+    width: 50%;
+    height: 14.5%;
+    background-color: blue;
+    float: right;
+  }
+  .scrollImage{
+    height: 42%;
+    background-color: green;
+  }
+  .pageContent{
+    height: 31%;
+    background-color: indianred;
+    
+  }
   .blue{
     background-color: red;
   }
@@ -128,7 +139,7 @@ and (min-width : 481px)
 and (max-width : 720px)
 {
   body{
-    background-color: indianred;
+    
     height: 100%;
     }
   .blue{
