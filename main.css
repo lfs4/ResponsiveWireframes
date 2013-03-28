@@ -308,6 +308,68 @@ and (max-width : 720px)
     height: 25%;
   }
   
+  
+ 
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+{
+  .topBox{
+    background-color: orange;
+    height: 23%;
+    color: black;
+    font-size: larger;
+  }
+  .menuButton{
+    border: 2px solid black;
+    display: inline;
+    width: 19%;
+    height: 25%;
+    background-color: blue;
+    float: right;
+  }
+
+  .menuList{
+    display: none;
+  }
+  .scrollImage{
+    height: 42%;
+    width: 99.5%;
+    margin-left: 0;
+    background-color: green;
+  }
+  .pageContent{
+    height: 33%;
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    display: none;
+    
+  }
+  .menuItem{
+    display: none;
+  }
+  .searchBar{
+    display: none;
+  
+  }
+  .buttonsub{
+    display: none;
+  }
+  .mobileSearch{
+    float: left;
+    display: inline;
+    margin: 1px;
+    border: 1px solid black;
+   
+    background-color: blue;
+    width: 59%;
+    height: 25%;
+  }
+  
+  
  
 }
 
