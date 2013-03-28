@@ -262,7 +262,7 @@ and (max-width : 720px)
     width: 19%;
     height: 25%;
     background-color: blue;
-    float: left;
+    float: right;
   }
   /*.cartButton{
     width: 50%;
@@ -291,11 +291,21 @@ and (max-width : 720px)
     display: none;
   }
   .searchBar{
-    display: block;
-    margin-left: 0;
+    display: none;
+  
   }
   .buttonsub{
     display: none;
+  }
+  .mobileSearch{
+    float: left;
+    display: inline;
+    margin: 1px;
+    border: 1px solid black;
+   
+    background-color: blue;
+    width: 59%;
+    height: 25%;
   }
   
  
