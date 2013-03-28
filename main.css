@@ -87,6 +87,7 @@ h1{
 .menuButton{
   
   display: none;
+  text-align: center;
 }
 .scrollImage{
   width: 62%;
@@ -124,6 +125,12 @@ h1{
 .mobileSearch{
   display: none;
   
+}
+#mobileContent{
+  float: left;
+  width: 100%;
+  background-color: indianred;
+  height: 50%;
 }
 
 
@@ -179,8 +186,8 @@ textarea {
 
 
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px)
+and (min-width : 0px)
+and (max-width : 480px)
 {
 body{
 background-color: grey;
@@ -248,7 +255,7 @@ background-color: grey;
 }
 @media only screen
 and (min-width : 481px)
-and (max-width : 720px)
+and (max-width : 767px)
 {
   .topBox{
     background-color: blue;
@@ -259,10 +266,11 @@ and (max-width : 720px)
   .menuButton{
     border: 2px solid black;
     display: inline;
-    width: 19%;
-    height: 25%;
+    width: 19.4%;
+    height: 30%;
     background-color: blue;
     float: right;
+    
   }
   /*.cartButton{
     width: 50%;
@@ -277,6 +285,7 @@ and (max-width : 720px)
     height: 42%;
     width: 99.5%;
     margin-left: 0;
+    margin: 0;
     background-color: green;
   }
   .pageContent{
@@ -300,21 +309,24 @@ and (max-width : 720px)
   .mobileSearch{
     float: left;
     display: inline;
-    margin: 1px;
+    margin-top: 10px;
+    
     border: 1px solid black;
    
-    background-color: blue;
+    text-align: center;
+    
+    background-color: white;
     width: 59%;
-    height: 25%;
+    height: 20%;
   }
   
   
  
 }
+
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) 
+and (min-width : 768px)
+and (max-width: 1100px)
 {
   .topBox{
     background-color: orange;
@@ -324,14 +336,21 @@ and (orientation : portrait)
   }
   .menuButton{
     border: 2px solid black;
-    display: inline;
     width: 19%;
     height: 25%;
     background-color: blue;
-    float: right;
+  }
+  #cartButton{
+  
+    width: 16.6%;
+    height: 9.1%;
+    clear: both;
   }
 
   .menuList{
+    display: inline;
+  }
+  .menuEndcap{
     display: none;
   }
   .scrollImage{
@@ -361,17 +380,149 @@ and (orientation : portrait)
   .mobileSearch{
     float: left;
     display: inline;
-    margin: 1px;
+    
     border: 1px solid black;
    
-    background-color: blue;
-    width: 59%;
-    height: 25%;
+    text-align: center;
+    
+    background-color: white;
+    width: 100%;
+    height: 10%;
+  }
+  #movies{
+    display: inline;
+    width: 16.6%;
+    height: 9.1%;
+    
+  }
+  #comics{
+    display: inline;
+    width: 16.5%;
+    height: 9.1%;
+    clear: both;
+  }
+  #tv{
+    display: inline;
+    width: 16.5%;
+    height: 9.1%;
+    
   }
   
-  
- 
+  #Games{
+     display: inline;
+    width: 16.5%;
+    height: 9.1%;
+  }
+  #blogs{
+     display: inline;
+    width: 16.5%;
+    height: 9.1%;
+  }
+  #videos{
+     display: inline;
+    width: 16.5%;
+    height: 9.1%;
+  }
 }
+@media only screen 
+and (min-width :1024px)
+and (max-width : 1200px)
+{
+  .topBox{
+    background-color: orange;
+    height: 23%;
+    color: black;
+    font-size: larger;
+  }
+  .menuButton{
+    border: 2px solid black;
+    width: 19%;
+    height: 25%;
+    background-color: blue;
+  }
+  #cartButton{
+  
+    width: 16.6%;
+    height: 9.1%;
+    clear: both;
+  }
+
+  .menuList{
+    display: inline;
+  }
+  .menuEndcap{
+    display: none;
+  }
+  .scrollImage{
+    height: 42%;
+    width: 99.5%;
+    margin-left: 0;
+    background-color: green;
+  }
+  .pageContent{
+    height: 33%;
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    display: none;
+    
+  }
+  .menuItem{
+    display: none;
+  }
+  .searchBar{
+    display: none;
+  
+  }
+  .buttonsub{
+    display: none;
+  }
+  .mobileSearch{
+    float: left;
+    display: inline;
+    
+    border: 1px solid black;
+   
+    text-align: center;
+    
+    background-color: white;
+    width: 100%;
+    height: 10%;
+  }
+  #movies{
+    display: inline;
+    width: 16.6%;
+    height: 9.1%;
+    
+  }
+  #comics{
+    display: inline;
+    width: 16.5%;
+    height: 9.1%;
+    clear: both;
+  }
+  #tv{
+    display: inline;
+    width: 16.5%;
+    height: 9.1%;
+    
+  }
+  
+  #Games{
+     display: inline;
+    width: 16.5%;
+    height: 9.1%;
+  }
+  #blogs{
+     display: inline;
+    width: 16.5%;
+    height: 9.1%;
+  }
+  #videos{
+     display: inline;
+    width: 16.5%;
+    height: 9.1%;
+  }
 
 
 
