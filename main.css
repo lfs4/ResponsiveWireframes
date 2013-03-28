@@ -23,6 +23,13 @@
   font-size: 10px;
 }*/
 
+html, body {
+    background-color: white;
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+}
+
 h1{
   margin: 0;
   padding: 0;
@@ -56,19 +63,19 @@ h1{
   height: 100%;
   border: 1px solid black;
   border-right: 0;
+  border-top: 0;
   text-align: center;
-  
-  
+  line-height: 275%;
+
 }
 .menuEndcap{
   width: 9.9%;
   float: left;
   height: 100%;
   border: 1px solid black;
+  border-top: 0;
   text-align: center;
- 
-  
-  
+  line-height: 275%;
 }
 
 .topBox{
@@ -78,9 +85,63 @@ h1{
   color: white;
 }
 .menuButton{
+  
   display: none;
 }
-.cartButton{float: left;}
+.scrollImage{
+  width: 62%;
+  height: 47%;
+  float: left;
+  border: 1px solid black;
+  background-color: green;
+  text-align: center;
+  line-height: 275%;
+}
+.pageContent{
+  
+  float: left;
+  width: 37%;
+  height: 39%;
+  margin-left: 5px;
+  border: 1px solid black;
+ 
+}
+.searchBar{
+  float: left;
+  width: 37%;
+  height: 8%;
+  margin-left: 5px;
+  border: 1px solid black;
+  
+}
+.buttonsub{
+  float: right;
+  height: 100%;
+  width: 38%;
+  border-left: 1px solid black;
+  
+}
+.mobileSearch{
+  display: none;
+  
+}
+
+
+
+
+
+/*.scrollImage{
+  width: 10%;
+  height: 47%;
+  margin-top: 3px;
+  background-color: green;
+  border: 1px solid black;
+}
+.pageContent{
+  width: 5%;
+ float: right;
+  height: 47%;
+  */
 
 
 
@@ -112,19 +173,14 @@ textarea {
     color: #222;
 }
 
-html, body {
-    background-color: white;
-    font-size: 1em;
-    line-height: 1.4;
-    height: 100%;
-}
+
 
 
 
 
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width: 480px)
+and (max-device-width : 480px)
 {
 body{
 background-color: grey;
@@ -148,31 +204,43 @@ background-color: grey;
     
   }
   .menuButton{
+    border: 2px solid black;
     display: inline;
-    width: 50%;
+    width: 49%;
     height: 14.5%;
     background-color: blue;
     float: left;
   }
-  .cartButton{
+  /*.cartButton{
     width: 50%;
     height: 14.5%;
     background-color: blue;
-    float: right;
-  }
+    float: le;
+  }*/
   .menuList{
     display: none;
   }
   .scrollImage{
     height: 42%;
+    width: 99.5%;
+    margin-left: 0;
     background-color: green;
   }
   .pageContent{
     height: 33%;
-    background-color: indianred;
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    display: none;
     
   }
   .menuItem{
+    display: none;
+  }
+  .searchBar{
+    display: none;
+  }
+  .buttonsub{
     display: none;
   }
 
@@ -182,23 +250,55 @@ background-color: grey;
 and (min-width : 481px)
 and (max-width : 720px)
 {
-  body{
-    
-    height: 100%;
-    }
-  .blue{
-    background-color: orange;
-  }
-  .red{
+  .topBox{
     background-color: blue;
-    
+    height: 23%;
+    color: black;
+    font-size: larger;
   }
-  .green{
+  .menuButton{
+    border: 2px solid black;
+    display: inline;
+    width: 19%;
+    height: 25%;
+    background-color: blue;
+    float: left;
+  }
+  /*.cartButton{
+    width: 50%;
+    height: 14.5%;
+    background-color: blue;
+    float: le;
+  }*/
+  .menuList{
+    display: none;
+  }
+  .scrollImage{
+    height: 42%;
+    width: 99.5%;
+    margin-left: 0;
     background-color: green;
   }
-  .orange{
-    background-color: red;
+  .pageContent{
+    height: 33%;
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    display: none;
+    
   }
+  .menuItem{
+    display: none;
+  }
+  .searchBar{
+    display: block;
+    margin-left: 0;
+  }
+  .buttonsub{
+    display: none;
+  }
+  
+ 
 }
 
 
